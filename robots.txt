@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://cosmobishal.github.io/sitemap.xml
