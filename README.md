@@ -1,1 +1,0 @@
-# cosmobishal.github.io
