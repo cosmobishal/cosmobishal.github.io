@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bishal Neupane, astronomy student, science educator and aspiring researcher exploring astronomy, astrophysics, cosmology, astrobiology and computational science.">
+  <meta name="theme-color" content="#07111f">
+  <title>Bishal Neupane | Astronomy, Physics and Science</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <canvas id="cosmos" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Bishal Neupane home">
+      <span class="brand-mark">BN</span>
+      <span class="brand-copy">
+        <strong>Bishal Neupane</strong>
+        <small>ASTRONOMY • PHYSICS • SCIENCE</small>
+      </span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#work">Work</a>
+      <a href="#milestones">Milestones</a>
+      <a href="#writing">Writing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">◐</button>
+  </header>
+
+  <main>
+    <section class="hero section-grid">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">ASTRONOMY STUDENT · SCIENCE EDUCATOR · RESEARCHER IN TRAINING</p>
+        <h1>Looking outward to understand how the universe works.</h1>
+        <p class="hero-text">The work moves between observation, computation, physics, education and the questions that sit behind all of them. The aim is simple enough to explain and difficult enough to spend years pursuing.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore the research</a>
+          <a class="button button-ghost" href="pages/about.html">Read the story</a>
+        </div>
+        <div class="signal-row" aria-label="Profile highlights">
+          <div><span class="signal-value">2023+</span><span class="signal-label">Astronomy outreach</span></div>
+          <div><span class="signal-value">2025+</span><span class="signal-label">Research archive</span></div>
+          <div><span class="signal-value">∞</span><span class="signal-label">Questions remaining</span></div>
+        </div>
+      </div>
+
+      <div class="hero-orbit reveal" aria-label="Animated orbital profile graphic">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="planet planet-main"></div>
+        <div class="planet planet-small"></div>
+        <div class="orbit-core">
+          <span class="core-name">BN</span>
+          <span class="core-caption">Koshi · Nepal</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Current interests">
+      <div class="ticker-track">
+        <span>EXOPLANETS</span><b>✦</b><span>ASTROCHEMISTRY</span><b>✦</b><span>PHYSICAL COSMOLOGY</span><b>✦</b><span>AI FOR ASTRONOMY</span><b>✦</b><span>SPACE SCIENCE</span><b>✦</b><span>SCIENCE EDUCATION</span><b>✦</b>
+        <span>EXOPLANETS</span><b>✦</b><span>ASTROCHEMISTRY</span><b>✦</b><span>PHYSICAL COSMOLOGY</span><b>✦</b><span>AI FOR ASTRONOMY</span><b>✦</b>
+      </div>
+    </section>
+
+    <section class="content-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 · ABOUT</p>
+        <h2>A portfolio built around curiosity with evidence.</h2>
+        <p>Physics gives the language. Astronomy gives the scale. Research gives the discipline. Teaching keeps the questions connected to people.</p>
+      </div>
+      <div class="about-layout">
+        <article class="glass-card manifesto-card reveal">
+          <div class="card-index">A</div>
+          <h3>Between telescope and notebook</h3>
+          <p>Interests move across observational astronomy, astrophysics, cosmology, astrobiology and computational methods. Some projects begin with a telescope or a public data archive. Others begin with a physical question that needs mathematics before it needs hardware.</p>
+          <p>There is a parallel commitment to science education. Astronomy becomes more meaningful when students can build, observe, calculate and argue from evidence rather than only memorize the names of objects.</p>
+        </article>
+        <div class="about-stack">
+          <article class="mini-card reveal">
+            <span class="mini-icon">◎</span>
+            <div><strong>Based in Nepal</strong><span>Working from Eastern Nepal with a wider scientific outlook</span></div>
+          </article>
+          <article class="mini-card reveal">
+            <span class="mini-icon">∴</span>
+            <div><strong>Research style</strong><span>Questions first, data second, interpretation last</span></div>
+          </article>
+          <article class="mini-card reveal">
+            <span class="mini-icon">⌁</span>
+            <div><strong>Education</strong><span>Hands on astronomy, physics teaching and science communication</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section dark-band" id="research">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 · RESEARCH</p>
+        <h2>Research interests with room to change.</h2>
+        <p>These are connected by a preference for problems where astronomy can be tested through data, physical models and computation.</p>
+      </div>
+      <div class="research-grid" id="researchGrid"></div>
+      <div class="section-link"><a class="text-link" href="pages/research.html">Open the research index →</a></div>
+    </section>
+
+    <section class="content-section" id="work">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 · WORK</p>
+        <h2>Research is only one part of the work.</h2>
+        <p>There is also time spent building communities, teaching, designing practical activities and making technical ideas understandable.</p>
+      </div>
+      <div class="timeline" id="experienceTimeline"></div>
+      <div class="section-link"><a class="text-link" href="pages/work.html">See the full work history →</a></div>
+    </section>
+
+    <section class="content-section milestone-band" id="milestones">
+      <div class="milestone-header reveal">
+        <div>
+          <p class="eyebrow">04 · MILESTONES</p>
+          <h2>Small steps that changed the direction.</h2>
+        </div>
+        <a class="button button-ghost" href="pages/milestones.html">View the timeline</a>
+      </div>
+      <div class="milestone-cards" id="milestoneCards"></div>
+    </section>
+
+    <section class="content-section" id="writing">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 · WRITING</p>
+        <h2>Long form notes for ideas that need more than a caption.</h2>
+        <p>Research notes, science communication, reflections on astronomy and the occasional attempt to make an old question feel new again.</p>
+      </div>
+      <div class="writing-grid" id="writingGrid"></div>
+    </section>
+
+    <section class="content-section contact-section" id="contact">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">06 · CONTACT</p>
+          <h2>Questions, collaboration or a good scientific argument.</h2>
+          <p>Email works best. Professional profiles and research identifiers are linked beside it.</p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-main" href="mailto:cosmobishal@gmail.com">cosmobishal@gmail.com</a>
+          <div class="profile-links">
+            <a href="https://orcid.org/0009-0000-3450-5195" target="_blank" rel="noreferrer">ORCID</a>
+            <a href="https://github.com/cosmobishal" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://np.linkedin.com/in/cosmobishal" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://www.researchgate.net/profile/Bishal-Neupane-10" target="_blank" rel="noreferrer">ResearchGate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Bishal Neupane</span>
+    <a href="#top">Back to the top ↑</a>
+  </footer>
+
+  <script src="data/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
