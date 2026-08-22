@@ -109,6 +109,22 @@ button { font: inherit; }
   font-size: 12px;
   color: var(--accent);
   background: rgba(117,213,255,.06);
+  overflow: hidden;
+  flex: 0 0 auto;
+}
+
+.brand-photo {
+  border-radius: 50%;
+  border-color: rgba(117,213,255,.28);
+  box-shadow: 0 0 24px rgba(117,213,255,.08);
+}
+
+.brand-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 25%;
+  display: block;
 }
 
 .brand-copy { display: grid; gap: 1px; }
