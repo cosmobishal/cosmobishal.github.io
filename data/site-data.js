@@ -3,7 +3,7 @@ window.PORTFOLIO = {
     name: "Bishal Neupane",
     role: "Astronomy student · science educator · researcher in training",
     email: "cosmobishal@gmail.com",
-    orcid: "https://orcid.org/0009-0000-3450-5195",
+    orcid: "https://orcid.org/0009-0005-9970-3666",
     github: "https://github.com/cosmobishal",
     linkedin: "https://np.linkedin.com/in/cosmobishal",
     researchgate: "https://www.researchgate.net/profile/Bishal-Neupane-10"
