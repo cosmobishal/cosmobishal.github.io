@@ -48,7 +48,7 @@ Update research records, experience, milestones, links and writing ideas there.
 
 ## Identity links
 
-The starter profile includes public links for ORCID, GitHub, LinkedIn and ResearchGate.
+The starter profile includes public links for ORCID, GitHub, LinkedIn and ResearchGate. The navigation mark uses the profile photograph stored in assets/img/bishal-profile.jpg.
 
 The ORCID identifier used here is `0009-0000-3450-5195`. Verify it against your own ORCID account before publishing.
 
