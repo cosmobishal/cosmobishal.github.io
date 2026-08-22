@@ -1,0 +1,1 @@
+Place profile photographs, telescope photographs, project diagrams and event photographs in this folder. The current site uses an abstract orbital identity so it works without personal images.
